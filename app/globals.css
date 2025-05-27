@@ -1,0 +1,53 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btnreg{
+    cursor: pointer;
+}
+.flox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flox h5{
+    color: rgb(179, 7, 7);
+    text-shadow: 0 0 10px;
+}
+.vedios{
+    width: 100%;
+    height: auto;
+}
+.vedios h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+    width: fit-content;
+}
+.vedios h3{
+    font-size: 25px;
+    /* font-weight: 500; */
+    margin-left: 20px;
+}
+.btn{
+    margin-left: 20px;
+}
+.main2{
+    margin-top: 30px;
+    height: 80vh;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media (max-width:1000px) {
+    .cards{
+    flex-wrap: wrap;
+    height: auto;
+}
+
+}
+
